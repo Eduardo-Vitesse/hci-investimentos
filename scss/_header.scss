@@ -5,8 +5,7 @@
         background-color: $color-white;
         @include flex(row, center, flex-end);
         .socials {
-            display: flex;
-            align-items: center;
+            @include flex(row, center, flex-end);
             a {
                 &:not(:last-child){
                     margin-right: 1.5rem;
@@ -50,3 +49,5 @@ header {
         }
     }
 }
+
+// @include responsive(480px)
