@@ -1,3 +1,23 @@
+.top-bar {
+    .container {
+        width: 100%;
+        height: auto;
+        background-color: $color-white;
+        @include flex(row, center, flex-end);
+        .socials {
+            display: flex;
+            align-items: center;
+            a {
+                &:not(:last-child){
+                    margin-right: 1.5rem;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+
 header {
     width: 100%;
     height: auto;
@@ -5,7 +25,10 @@ header {
     nav {
         width: 100%;
         @include flex(row, center, space-between);
-        .logo {}
+        .logo {
+            padding-top: 2.9rem;
+            padding-bottom: 2.9rem;
+        }
         ul {
             display: flex;
             li {
@@ -15,6 +38,10 @@ header {
                 a {
                     font-size: 18px;
                     color: $color-grey;
+                    transition: opacity .3s linear;
+                    &:hover {
+                        opacity: 0.8;
+                    }
                 }
             }
         }

@@ -12,6 +12,16 @@
     <title>HCI Investimentos</title>
 </head>
 <body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="socials">
+                <a href="#"><img src="./img/icons/icone-insta.svg" alt="Instagram"></a>
+                <a href="#"><img src="./img/icons/icone-face.svg" alt="Facebook"></a>
+                <a href="#"><img src="./img/icons/icone-linkedin.svg" alt="Linkedin"></a>
+                <a href="#"><img src="./img/icons/icone-email.svg" alt="E-mail"></a>
+            </div>
+        </div>
+    </div>
     <header>
         <div class="container">
             <nav>
