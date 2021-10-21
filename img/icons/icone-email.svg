@@ -1,0 +1,17 @@
+<svg id="icone-email" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <rect id="Retângulo_26" data-name="Retângulo 26" width="20" height="20" fill="none"/>
+  <g id="logo-email" transform="translate(1.19 1.37)">
+    <g id="Grupo_37" data-name="Grupo 37" transform="translate(0.31 2.63)">
+      <path id="Caminho_12" data-name="Caminho 12" d="M15.556,4.384v9.7H2.064v-9.7H15.556m.3-1.754H1.766A1.453,1.453,0,0,0,.31,4.086v10.3A1.453,1.453,0,0,0,1.766,15.84H15.854a1.453,1.453,0,0,0,1.456-1.456V4.095A1.46,1.46,0,0,0,15.854,2.63Z" transform="translate(-0.31 -2.63)" fill="#c4c4c4"/>
+    </g>
+    <g id="Grupo_38" data-name="Grupo 38" transform="translate(0.453 2.773)">
+      <path id="Caminho_13" data-name="Caminho 13" d="M8.827,11.487a2.45,2.45,0,0,1-1.754-.734L.47,4.061,1.706,2.79l6.6,6.693a.731.731,0,0,0,1.035,0l6.6-6.693,1.236,1.271-6.6,6.693A2.45,2.45,0,0,1,8.827,11.487Z" transform="translate(-0.47 -2.79)" fill="#c4c4c4"/>
+    </g>
+    <g id="Grupo_39" data-name="Grupo 39" transform="translate(0.466 9.236)">
+      <rect id="Retângulo_30" data-name="Retângulo 30" width="7.704" height="1.789" transform="matrix(0.722, -0.692, 0.692, 0.722, 0, 5.333)" fill="#c4c4c4"/>
+    </g>
+    <g id="Grupo_40" data-name="Grupo 40" transform="translate(10.353 9.243)">
+      <rect id="Retângulo_31" data-name="Retângulo 31" width="1.789" height="7.704" transform="matrix(0.692, -0.722, 0.722, 0.692, 0, 1.291)" fill="#c4c4c4"/>
+    </g>
+  </g>
+</svg>
