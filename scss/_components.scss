@@ -21,3 +21,25 @@
         opacity: 0.9;
     }
 }
+
+.detail {
+    width: 5rem;
+    height: 0.3rem;
+    background-color: $blue-navy;
+}
+
+.blog-link {
+    display: flex;
+    // align-items: center;
+    span {
+        font-size: 18px;
+        font-weight: bold;
+        color: $blue-navy;
+        margin-right: 1.6rem;
+    }
+
+    img {
+        padding: 0;
+        margin: 0;
+    }
+}

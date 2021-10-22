@@ -5,15 +5,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: -120px;
-
     .container {
         .text-hero {
             width: 55rem;
-            height: 27.8rem;
+            min-height: 27.8rem;
             @include flex(column, center, space-between);
             position: relative;
-            top: 25rem;
+            top: 30rem;
             h1 {
                 font-size: 45px;
                 font-weight: 800;
@@ -22,6 +20,199 @@
             p {
                 font-size: 15px;
                 color: $color-grey;
+            }
+        }
+    }
+}
+
+.s-acessoria {
+    width: 100%;
+    min-height: 70rem;
+    background-image: url("../img/background/sub-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        .text-acessoria {
+            max-width: 52.5rem;
+            height: 31.5rem;
+            margin-top: 19.3rem;
+            @include flex(column, flex-start, space-between);
+            h2 {
+                font-size: 30px;
+                font-weight: 800;
+                color: $blue-navy;
+            }
+            p {
+                font-size: 15px;
+                color: $color-grey;
+                strong {
+                    color: $blue-dark;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.s-solucoes {
+    width: 100%;
+    min-height: 55rem;
+    background-image: url("../img/background/soluçoes-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        .text-solucoes {
+            max-width: 55rem;
+            height: 25.5rem;
+            color: $color-white;
+            margin-top: 14.8rem;
+            @include flex(column, flex-start, space-between);
+            h2 {
+                font-size: 51px;
+                font-weight: 800;
+            }
+            p {
+                font-size: 15px;
+                strong {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+.s-equipe {
+    width: 100%;
+    min-height: 104.1rem;
+    background-image: url("../img/background/equipe-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .container {
+        .text-equipe {
+            max-width: 68.8rem;
+            min-height: 4.6rem;
+            @include flex(column, center, space-between);
+            margin: 0 auto;
+            text-align: center;
+            h2 {
+                font-size: 30px;
+                font-weight: 800;
+                color: $blue-navy;
+                margin-top: 9rem;
+            }
+            p {
+                font-size: 15px;
+                color: $color-grey;
+                line-height: 27px;
+                margin-bottom: 6rem;
+                strong {
+                    font-weight: bold;
+                    color: $blue-dark;
+                }
+            }
+        }
+
+        .equipe-content {
+            @include flex(row, center, space-between);
+            max-width: 100%;
+            .card-equipe {
+                max-width: 24.5rem;
+                margin-bottom: 5rem;
+                .card-equipe-img {
+                    max-height: 30rem;
+                    margin-bottom: 3rem;
+                }
+                .card-equipe-name {
+                    margin-bottom: 3rem;
+                    h3 {
+                        font-weight: 800;
+                        font-size: 18px;
+                        color: $blue-navy;
+                        margin-bottom: 1rem;
+                    }
+                    span {
+                        font-weight: bold;
+                        font-size: 15px;
+                        color: $color-grey;
+                    }
+                }
+                .card-equipe-desc {
+                    p {
+                        font-size: 15px;
+                        color: $color-grey;
+                        line-height: 27px;
+                    }
+                }
+            }
+        }
+        
+        .btn-conheca {
+            width: 100%;
+            height: auto;
+            @include flex(row, center, center);
+        }
+
+    }
+}
+
+.s-news {
+    width: 100%;
+    min-height: 81.4rem;
+    background-color: $color-white;
+    .container {
+        .news-content-top {
+            width: 100%;
+            min-height: 8.6rem;
+            @include flex(row, flex-end, space-between);
+            margin-bottom: 6.6rem;
+            .news-text-top {
+                .detail {
+                    margin-top: 8.9rem;
+                }
+                h2 {
+                    font-size: 30px;
+                    font-weight: 800;
+                    color: $blue-navy;
+                    margin-top: 1.5rem;
+                }
+                p {
+                    font-size: 15px;
+                    color: $color-grey;
+                    margin-top: 1.2rem;
+                }
+            }
+        }
+        .news-content-cards {
+            width: 100%;
+            @include flex(row, center, space-between);
+            .card-news {
+                width: 35rem;
+                min-height: 42.4rem;
+                img {
+                    max-height: 25rem;
+                    margin-bottom: 3.5rem;
+                }
+                h4 {
+                    font-size: 16px;
+                    font-weight: 800;
+                    color: $blue-navy;
+                }
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 3.9rem;
+                    p {
+                        font-size: 14px;
+                        color: $color-grey;
+                    }
+                }
             }
         }
     }

@@ -12,17 +12,17 @@
     <title>HCI Investimentos</title>
 </head>
 <body>
-    <div class="top-bar">
-        <div class="container">
-            <div class="socials">
-                <a href="#"><img src="./img/icons/icone-insta.svg" alt="Instagram"></a>
-                <a href="#"><img src="./img/icons/icone-face.svg" alt="Facebook"></a>
-                <a href="#"><img src="./img/icons/icone-linkedin.svg" alt="Linkedin"></a>
-                <a href="#"><img src="./img/icons/icone-email.svg" alt="E-mail"></a>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="socials">
+                    <a href="#"><img src="./img/icons/icone-insta.svg" alt="Instagram"></a>
+                    <a href="#"><img src="./img/icons/icone-face.svg" alt="Facebook"></a>
+                    <a href="#"><img src="./img/icons/icone-linkedin.svg" alt="Linkedin"></a>
+                    <a href="#"><img src="./img/icons/icone-email.svg" alt="E-mail"></a>
+                </div>
             </div>
         </div>
-    </div>
-    <header>
         <div class="container">
             <nav>
                 <a href="#" class="logo">
@@ -35,7 +35,7 @@
                     <li><a href="#">News</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
-                <button class="btn-success">Abra sua conta</button>
+                <a href="#" class="btn-success">Abra sua conta</a>
             </nav>
         </div>
     </header>
